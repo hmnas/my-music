@@ -74,6 +74,7 @@ function forplay() {
     gif.style.opacity = 1
     songPlay.forEach((song, i) => {
         if (i === index) {
+            current.innerHTML = songs[index].song
             song.classList.remove(`fa-circle-play`)
             song.classList.add(`fa-circle-pause`)
         }
@@ -243,7 +244,7 @@ previous.addEventListener('click', function () {
 function autoPlay() {
     audio.addEventListener('ended', function () {
         playAll()
-        if (index <= 7) {
+        if (index <= 9) {
             index = (index + 1) % songs.length
         }
         current.innerHTML = songs[index].song
