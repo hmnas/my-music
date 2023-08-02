@@ -126,7 +126,7 @@ ul .logo img {
     align-items: center;
     background: linear-gradient(105deg, #ba8787, #82b186);
     padding: 0 5px;
-    box-shadow: 2px 2px 5px #ba8787, -2px -2px 3px #82b186;
+    box-shadow: 5px 3px 5px #000000, 3px 0px 1px #ba8787, -3px -2px 3px #82B185;
 }
 
 
