@@ -194,6 +194,12 @@ ul .logo img {
     font-size: 12px;
 }
 
+@media (max-width: 870px) {
+    .song-list {
+        width: 50%;
+    }
+}
+
 @media (max-width: 680px) {
     .song-list {
         width: 100%;
