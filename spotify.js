@@ -65,6 +65,12 @@ let songs = [
         cover: 'C:/Users/Hmna07/Desktop/basics/spotify/material/img9.jpg',
         duration: '03:32',
     },
+    {
+        song: 'Love Me Again- V',
+        filePath: 'C:/Users/Hmna07/Desktop/basics/spotify/material/song10.mp3',
+        cover: 'C:/Users/Hmna07/Desktop/basics/spotify/material/img10.jpg',
+        duration: '03:17',
+    },
 ]
 //Main button
 function forplay() {

@@ -1,6 +1,5 @@
 body {
     background-color: aliceblue;
-    overflow: hidden;
 }
 
 * {
@@ -45,7 +44,7 @@ ul .logo img {
 }
 
 .spotify {
-    height: calc(100vh - 60px);
+    height: calc(100vh - 90px);
 }
 
 .bottom {
@@ -78,8 +77,7 @@ ul .logo img {
 
 .main {
     width: 85%;
-    height: calc(100vh - 150px);
-    margin: 10px auto;
+    margin: 21px auto;
     background-color: black;
     border-radius: 10px;
     background-image: url(https://wallpaperaccess.com/full/1891198.jpg);
@@ -87,6 +85,7 @@ ul .logo img {
     background-size: 120%;
     background-position: center left;
     padding: 1px;
+    padding-bottom: 20px;
 
 }
 
@@ -98,8 +97,9 @@ ul .logo img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: auto;
-    height: 410px;
+    height: 400px;
+    overflow: scroll;
+
 }
 
 .song-list::-webkit-scrollbar {
@@ -190,7 +190,7 @@ ul .logo img {
 .duration {
     position: relative;
     left: 43%;
-    top: -16px;
+    top: -17px;
     font-size: 12px;
 }
 
@@ -224,8 +224,24 @@ ul .logo img {
         margin-bottom: 10px;
     }
 
+    .duration {
+        top: -16px;
+    }
 
     .current-time {
-        top: 9px;
+        top: 8px;
+    }
+}
+
+@media (max-width:480px) {
+    .duration {
+        left: 44%;
+        font-size: 10px;
+        top: -13px;
+    }
+
+    .current-time {
+        right: 44%;
+        font-size: 10px;
     }
 }
